@@ -9,11 +9,8 @@ const ProgressCheckBoxTable = () => {
 		}
 	}
 	function CheckBoxHandler(id, inputId) {
-		// console.log("Secoind" , inputId)
-		var remember = document.getElementById(id);
-
-		if (remember.checked) {
-			console.log("Check", remember)
+		var input = document.getElementById(inputId);
+		if (input.checked) {
 			document.getElementById(id).style.backgroundColor = "#FFF";
 		} else {
 			document.getElementById(id).style.backgroundColor = "#fcfcfc";
@@ -43,7 +40,7 @@ const ProgressCheckBoxTable = () => {
 				<div className='mb-3'></div>
 				<tr className='hover:bg-[#FFF]  rounded-xl w-full customs-shadow' id="row2">
 					<th className='w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl'>
-						<input type="checkbox" className='purple_checkbox' onClick={() => { CheckBoxHandler('row2') }} /></th>
+						<input type="checkbox" className='purple_checkbox' id="check2" onClick={() => { CheckBoxHandler("row2", "check2") }} /></th>
 					<td className='w-[17.5%] text-sm font-semibold text-[#030229] text-left px-2.5 py-6 border-r-[1px] border-[#F2F2F2]'>James Mullican</td>
 					<td className='w-[15.3%] text-sm font-semibold text-[#FF8F6B] text-left px-2.5 py-6 border-r-[1px] border-[#F2F2F2]'><button className='bg-[#F0F0FD]  text-[#C0BEFF] px-2 py-0.5 rounded'>Washing</button></td>
 					<td className='w-[14.7%] text-sm font-semibold text-[#030229] text-left px-2.5 py-6 border-r-[1px] border-[#F2F2F2]'>4:30 Pm</td>
