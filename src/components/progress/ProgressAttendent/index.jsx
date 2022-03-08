@@ -1,5 +1,4 @@
 import React from 'react'
-
 const ProgressAttendent = () => {
     return (
         <div className='flex justify-between items-center  mt-2.5'>

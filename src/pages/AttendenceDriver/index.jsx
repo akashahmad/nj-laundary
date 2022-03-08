@@ -5,6 +5,7 @@ import Branch1 from "../../assets/images/Branch.png"
 import Stright2 from "../../assets/images/Straight2.png"
 import Arrow2Up from "../../assets/images/arrow-d-u-2.png"
 import Arrow2Down from "../../assets/images/arrow-d-b-2.png"
+import smallArrowattendance from "../../assets/images/smallArrowattendance.png"
 const AttendenceDriver = () => {
   return (
           <div className='bg-white mt-5 pt-4 rounded-xl'>
@@ -28,8 +29,8 @@ const AttendenceDriver = () => {
                 </div>
               </div>
               <div className='flex items-center justify-between w-[25.5%] mx-auto mt-3'>
-                <img src={Stright2} />
-                <img src={Stright2} />
+                <img src={smallArrowattendance} />
+                <img src={smallArrowattendance} />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
                 <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg'>
@@ -70,9 +71,9 @@ const AttendenceDriver = () => {
                 </div>
               </div>
               <div className='d-flex m-10'>
-                <button className='text-sm font-bold py-[9px] bg-[#F8D7F8] text-[#FF5B5B] px-2.5 shadow rounded-xl mr-2.5'>Stop</button>
-                <button className='text-sm font-bold py-[9px] px-[17px] shadow rounded-xl bg-[#22215B] text-white mr-2.5'>New Customer</button>
-                <button className='text-sm font-bold py-[9px] px-2.5 shadow rounded-xl mr-2.5 text-[#22215B]'>Service</button>
+                <button className='text-sm font-bold py-[9px] bg-[#FBDBDB] text-[#FF5B5B] px-4 btn-shadow rounded-xl mr-2.5'>Stop</button>
+                <button className='text-sm font-bold py-[9px] px-[17px] btn-shadow rounded-xl bg-[#22215B] text-white mr-2.5'>New Customer</button>
+                <button className='text-sm font-bold py-[9px] px-2.5 btn-shadow rounded-xl mr-2.5 text-[#22215B]'>Service</button>
               </div>
             </div>
           </div>

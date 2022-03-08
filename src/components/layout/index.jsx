@@ -1,7 +1,6 @@
 import React from 'react'
 import Sidebar from './sidebar'
 import Header from "./header"
-// import Header from '../headerBar'
 const Layout = (props) => {
   return (
     <div className='px-[34px]'>
@@ -15,5 +14,4 @@ const Layout = (props) => {
     </div>
   )
 }
-
 export default Layout

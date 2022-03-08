@@ -3,13 +3,6 @@ import ActionBtn from "../../../assets/images/action-btn.svg"
 import CheckImg from "../../../assets/images/check-btn.svg"
 import BucketImg from "../../../assets/images/bucketCheck.svg"
 import ProgressImg from "../../../assets/images/progress.png"
-
-// import DotICon from "../../assets/images/doticon.svg"
-// import Author2Img from "../../assets/images/author2.svg"
-// import VehicleImg from "../../assets/images/vehicle.svg"
-// import DressImg from "../../assets/images/dress.svg"
-
-
 const CardsAction = () => {
   return (
       <div className='w-[51.5%]'>

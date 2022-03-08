@@ -9,7 +9,6 @@ const  CustomerCards = () => {
     <div className='bg-white rounded-xl w-[32.5%] px-5 py-5 overflow-y-scroll h-[732px]'>
     <div className='flex justify-between pr-10 mb-2.5'>
         <h2 className='text-2xl font-bold'>Customers</h2>
-        {/* <img src={ArrowV} /> */}
          {/* dropdown start */}
          <div className="group relative">
                     <button className="button-effects-sec">

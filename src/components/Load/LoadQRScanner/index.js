@@ -1,9 +1,6 @@
 import React from 'react'
-import ArrowV from "../../../assets/images/arrowV.svg"
 import InstImg from "../../../assets/images/instnt-img.svg"
-import ProductImg from "../../../assets/images/product.png"
 import ArrowRight from "../../../assets/images/btn-arrow-r.svg"
-import TimeArrow from "../../../assets/images/timearrow.png"
 import product1Img from "../../../assets/images/product-1.webp"
 import TextField from '@mui/material/TextField';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
@@ -21,7 +18,7 @@ const LoadQRScanner = () => {
                         <div className='w-[60.3%]'>
                             <label className='font-bold text-sm text-[#22215B] mr-[18px]'>Washing Intst.</label>
                             <div className='mt-2.5 relative'>
-                                <input type="text" name="" value="418369532143dfgfghg567" className='text-sm font-normal w-full py-3 px-[18px] customer-shadow rounded-xl ' />
+                                <input type="text" name="" value="418369532143dfgfghg567" className='text-sm font-normal w-full py-3 px-[18px] customer-shadow rounded-xl outline-none ' />
                                 <img src={InstImg} className="absolute top-[13px] right-[28px]" />
                             </div>
                         </div>
@@ -42,13 +39,11 @@ const LoadQRScanner = () => {
                                         </Stack>
                                     </LocalizationProvider>
                                 </div>
-                                {/* <img src={TimeArrow} className="absolute top-[2px] right-[6px] w-[30px]" /> */}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='w-full rounded-xl bg-white px-[28px] pt-[30px] pb-[28px]'>
-                    {/* <img src={ProductImg} /> */}
                     {/* Product listing Start */}
                     <div className='flex justify-start  items-center pb-1 bg-[#F6F6F9]'>
                         <div className='flex flex-col items-center bg-white w-[12%] button-effect px-0.5 pt-1 pb-2.5 mr-1'>
@@ -228,10 +223,10 @@ const LoadQRScanner = () => {
                     {/* Product Listing End */}
                     <div className='flex justify-center items-center mt-10'>
                         <div className='relative'>
-                            <button className='text-sm font-bold text-[#22215B] bg-[#FFF] pr-11 pl-5 py-2.5  rounded-xl customer-shadow'>Load Another</button>
+                            <button className='text-sm font-bold text-[#22215B] bg-[#FFF] pr-11 pl-5 py-2.5  rounded-xl btn-shadow'>Load Another</button>
                             <img src={ArrowRight} className="absolute top-[15px] right-[20px] " />
                         </div>
-                        <button className='text-sm font-bold text-white bg-[#22215B] px-4 py-2.5 ml-5 rounded-xl customer-shadow'>Confirm</button>
+                        <button className='text-sm font-bold text-white bg-[#22215B] px-4 py-2.5 ml-5 rounded-xl btn-shadow'>Confirm</button>
                     </div>
                 </div>
             </form>
