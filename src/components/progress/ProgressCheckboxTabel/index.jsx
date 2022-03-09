@@ -11,7 +11,7 @@ const ProgressCheckBoxTable = () => {
 		let checkboxes = document.getElementById("progress-table").querySelectorAll("input[type=checkbox]");
 		let rows = document.getElementById("progress-table").querySelectorAll("tr");
 
-		for (let i = 0; i < rows.length; i++) {
+		for (let i = 1; i < rows.length; i++) {
 			if (val) {
 				rows[i].style.backgroundColor = "#FFF";
 			} else {
@@ -25,14 +25,13 @@ const ProgressCheckBoxTable = () => {
 				checkboxes[i].checked = false;
 			}
 		}
-		
 	};
 	return (
 		<table class="progress-table table-auto w-full mt-4" id="progress-table">
 			<thead>
 				<tr>
 					<th className="w-[7.3%]">
-						<input onClick={(e) => tableCheckBoxHandler(e.target.checked)} type="checkbox" className="purple_checkbox" />
+						<input onClick={(e) => tableCheckBoxHandler(e.target.checked)} type="checkbox" className="purple_checkbox cursor-pointer" />
 					</th>
 					<th className="w-[17.5%] text-xs font-normal opacity-70 text-[#030229] text-left px-2.5 py-4">Order</th>
 					<th className="w-[15.3%] text-xs font-normal opacity-70 text-[#030229] text-left px-2.5 py-4">In-Progress</th>
@@ -41,11 +40,11 @@ const ProgressCheckBoxTable = () => {
 				</tr>
 			</thead>
 			<tbody className="w-full">
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row1">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row1">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl   rounded-bl-xl ">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
+							className="purple_checkbox cursor-pointer"
 							id="check1"
 							onClick={(e) => {
 								CheckBoxHandler(e);
@@ -60,11 +59,11 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl ">Lorem Ipsum is simply dummy </td>
 				</tr>
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF]  rounded-xl w-full customs-shadow" id="row2">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE]  rounded-xl w-full customs-shadow" id="row2">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
+							className="purple_checkbox cursor-pointer"
 							id="check2"
 							onClick={(e) => {
 								CheckBoxHandler(e);
@@ -79,13 +78,13 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl">Lorem Ipsum is simply dummy </td>
 				</tr>
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row3">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row3">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
-							onClick={() => {
-								CheckBoxHandler("row3");
+							className="purple_checkbox cursor-pointer"
+							onClick={(e) => {
+								CheckBoxHandler(e);
 							}}
 						/>
 					</th>
@@ -97,13 +96,13 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl">Lorem Ipsum is simply dummy </td>
 				</tr>
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row4">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row4">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
-							onClick={() => {
-								CheckBoxHandler("row4");
+							className="purple_checkbox cursor-pointer"
+							onClick={(e) => {
+								CheckBoxHandler(e);
 							}}
 						/>
 					</th>
@@ -115,13 +114,13 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl">Lorem Ipsum is simply dummy </td>
 				</tr>{" "}
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row5">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row5">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
-							onClick={() => {
-								CheckBoxHandler("row5");
+							className="purple_checkbox cursor-pointer"
+							onClick={(e) => {
+								CheckBoxHandler(e);
 							}}
 						/>
 					</th>
@@ -133,13 +132,13 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl">Lorem Ipsum is simply dummy </td>
 				</tr>
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row6">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row6">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
-							onClick={() => {
-								CheckBoxHandler("row6");
+							className="purple_checkbox cursor-pointer"
+							onClick={(e) => {
+								CheckBoxHandler(e);
 							}}
 						/>
 					</th>
@@ -151,13 +150,13 @@ const ProgressCheckBoxTable = () => {
 					<td className=" text-sm font-normal text-[#030229] text-left px-2.5 py-6 rounded-tr-xl  rounded-br-xl">Lorem Ipsum is simply dummy </td>
 				</tr>
 				<div className="mb-3"></div>
-				<tr className="hover:bg-[#FFF] rounded-xl w-full customs-shadow" id="row7">
+				<tr className="hover:bg-[#FFF] bg-[#FDFDFE] rounded-xl w-full customs-shadow" id="row7">
 					<th className="w-[7.3%] border-r-[1px] border-[#F2F2F2] rounded-tl-xl  rounded-bl-xl">
 						<input
 							type="checkbox"
-							className="purple_checkbox"
-							onClick={() => {
-								CheckBoxHandler("row7");
+							className="purple_checkbox cursor-pointer"
+							onClick={(e) => {
+								CheckBoxHandler(e);
 							}}
 						/>
 					</th>

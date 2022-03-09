@@ -16,15 +16,15 @@ const AttendenceDriver = () => {
             <div className='flex flex-col justify-center items-center mt-[-22px]'>
               <p className='text-[25px] font-normal text-[#22215B] tracking-[-0.69px]'>Attendance/Driver</p>
               <img src={ArrowStraight} className="mt-0.5 w-[22px]" />
-              <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg'>
+              <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                 <p className='text-xl font-bold bg-[#E0F5FF] text-[#242938] font-roboto py-[9px] px-[98px] rounded-lg'>Service</p>
               </div>
               <img src={Branch1} className="mt-3" />
               <div className='flex items-center justify-between w-[35%] mx-auto mt-5'>
-                <div className='py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg'>
+                <div className='py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-bold bg-[#FFF4D8] text-[#242938] font-roboto py-[9px] px-8 rounded-lg'>Pickup</p>
                 </div>
-                <div className='py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg'>
+                <div className='py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-bold bg-[#D9E2FF] text-[#242938] font-roboto py-[9px] px-6 rounded-lg'>Drop-Off</p>
                 </div>
               </div>
@@ -33,27 +33,27 @@ const AttendenceDriver = () => {
                 <img src={smallArrowattendance} />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
-                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg'>
+                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-bold bg-[#FFE2D9] leading-[22px] tracking-[-0.5px] text-[#242938] font-roboto py-[9px] px-3 rounded-lg text-center'>Customer name/ Order #</p>
                 </div>
-                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg w-[43.5%] '>
+                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg w-[43.5%] cursor-pointer'>
                   <p className='text-xl font-bold bg-[#E2E1FF] text-[#242938] font-roboto py-[17px] px-3 rounded-lg'>Customer name</p>
                 </div>
               </div>
               <div>
                 <img src={Arrow2Up} className="mt-3" />
               </div>
-              <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg'>
+              <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                 <p className='text-xl font-normal bg-[#F4F5F7] text-[#242938] font-roboto py-[9px] px-[98px] rounded-lg'># of Bags</p>
               </div>
               <div>
                 <img src={Arrow2Down} className="mt-3" />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
-                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA]  rounded-lg w-[43.5%] '>
+                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA]  rounded-lg w-[43.5%] cursor-pointer'>
                   <p className='text-xl font-normal bg-[#F4F5F7] text-[#242938]  font-roboto py-[17px] px-3 rounded-lg text-center'>Bag Color</p>
                 </div>
-                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg'>
+                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-normal bg-[#F4F5F7] leading-[22px] tracking-[-0.5px] text-[#242938] font-roboto py-[9px] px-3 rounded-lg text-center'>Weight in=X # of Bags</p>
                 </div>
               </div>
@@ -63,10 +63,10 @@ const AttendenceDriver = () => {
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
 
-                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg'>
+                <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-normal bg-[#F4F5F7] leading-[22px] tracking-[-0.5px] text-[#242938] font-roboto py-[9px] px-3 rounded-lg text-center'>Are all bass Tagged?</p>
                 </div>
-                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA]  rounded-lg w-[43.5%] '>
+                <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA]  rounded-lg w-[43.5%] cursor-pointer'>
                   <p className='text-xl font-normal bg-[#F4F5F7] text-[#242938]  font-roboto py-[17px] px-3 rounded-lg text-center'>Read Prompt</p>
                 </div>
               </div>

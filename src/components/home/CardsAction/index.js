@@ -8,7 +8,7 @@ const CardsAction = () => {
       <div className='w-[51.5%]'>
         <div className='flex justify-between items-center px-4 mt-2.5'>
           <p className='text-[22px] font-extrabold '>Action Buttons</p>
-          <img src={ActionBtn} className="w-9" />
+          <img src={ActionBtn} className="w-9 cursor-pointer" />
         </div>
         <div className='relative'>
           <div className='line-img1 flex justify-between bg-[#FF8F6B] py-[42px] pl-[52px] pr-[38px] rounded-xl mt-5'>

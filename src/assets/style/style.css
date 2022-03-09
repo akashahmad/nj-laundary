@@ -137,7 +137,6 @@ input[type=checkbox] {
     margin-right: -20px !important;
   }
 .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
-  /* font: inherit; */
   letter-spacing: inherit;
   color: currentColor;
    padding:unset !important;
@@ -193,11 +192,6 @@ input[type=checkbox] {
 }
 
 /* dropdown bg change */
-
-/* Active bg change button */
-.index-component-button:focus div{
-  color: white;
-}
 .btn-shadow {
   box-shadow: 0 3px 10px rgba(3, 2, 41, 0.10)
 }
@@ -205,29 +199,15 @@ input[type=checkbox] {
   box-shadow: 0 3px 10px rgba(3, 2, 41, 0.10)
 }
 /* .progress-table  */
-
 .row-bg{
   background-color:#fcfcfc ;
 }
 .purple_checkbox:checked ~ .row-bg {
   background-color:white !important;
 }
-/* input[type=checkbox]:checked:after {
-  background-color: red !important;
-  color: blue !important;
-} */
 .redBackground{
   background-color: red;  
 }
-
-/* Sidebar Active: */
-/* .sidebar-btn:focus div{
-  color:#2DA9EF !important;
-}
-.sidebar-btn:focus{
-  background-image: linear-gradient(to right, #D7EFF9 , #fff);
-  
-} */
 .sidebar-btn {
   color:#2DA9EF !important;
 }
@@ -237,6 +217,40 @@ input[type=checkbox] {
 .hover-state:hover .hover-svg{
   color: #2DAAE2;
 }
-/* .row-bg{
-  background-color: #fcfcfc !important;
-} */
+/* sheduler design */
+.css-1ypfif-MuiTypography-root {
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-sbo95e-MuiTypography-root{
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-1gqyz35-MuiTypography-root{
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+  font-family: unset !important;
+  font-size: 14px !important;
+}
+.css-1y942vo-MuiButtonBase-root-MuiButton-root{
+  font-family: unset !important;
+  font-size: 14px !important;
+}
+.css-m1a27h{
+  margin-top: 15px !important;
+}
+.css-3f54eu {
+  position: relative;
+  display: grid;
+  grid-template-columns: 14% repeat(6, 1fr) !important;
+}
+.css-fpqwey {
+position: relative;
+display: grid;
+grid-template-columns: 14% repeat(1, 1fr) !important;
+}
+.rs__time {
+height: 46px !important;
+}
