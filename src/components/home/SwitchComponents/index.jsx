@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CalenderIcon from "../../../assets/images/calendar-h-icon.svg"
-import HomeScheduler from '../HomeScheduler';
+// import HomeScheduler from '../HomeScheduler';
 import CarouselComponent from "../Carousel"
 import Pricing from '../Pricing';
 const SwitchComponents = () => {
@@ -125,9 +125,9 @@ const SwitchComponents = () => {
 					{showCards &&
 						<Pricing />
 					}
-					{showCalendar &&
+					{/* {showCalendar &&
 						<HomeScheduler />
-					}
+					} */}
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 import React from 'react'
 const Header = ({ headerText }) => {
-console.log(window.location.pathname)
+
     return (
         <div className='flex flex-row justify-between mt-5'>
             <p className='text-2xl font-extrabold'>{headerText}</p>
