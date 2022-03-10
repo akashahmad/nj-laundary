@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ActionBtn from "../../../assets/images/action-btn.svg"
 import CheckImg from "../../../assets/images/check-btn.svg"
 import BucketImg from "../../../assets/images/bucketCheck.svg"
@@ -17,7 +18,9 @@ const CardsAction = () => {
               <h2 className='text-[22px] font-extrabold text-[#030229]'>Check-In</h2>
               <p className='text-[14px] font-light text-[#030229]'>If you want to make Check-In</p>
             </div>
+            <Link to="/fold">
             <button className='text-white bg-black py-3 px-14 rounded-lg border border-2 text-base font-extrabold action-btn'>Lets go</button>
+            </Link>
           </div>
         </div>
         <div className='relative'>
@@ -27,7 +30,9 @@ const CardsAction = () => {
               <h2 className='text-[22px] font-extrabold text-[#030229]'>In Progress</h2>
               <p className='text-[14px] font-light text-[#030229]'>Want to put Launry in In-Progress</p>
             </div>
+            <Link to="/in-progress">
             <button className='text-white bg-black py-3 px-14 rounded-lg border border-2 text-base font-extrabold action-btn'>Lets go</button>
+            </Link>
           </div>
         </div>
         <div className='relative'>
@@ -37,7 +42,9 @@ const CardsAction = () => {
               <h2 className='text-[22px] font-extrabold text-[#030229]'>Check-Out</h2>
               <p className='text-[14px] font-light text-[#030229]'>Lets make it Check-Out</p>
             </div>
+            <Link to="/load">
             <button className='text-white bg-black py-3 px-14 rounded-lg border border-2 text-base font-extrabold  action-btn'>Lets go</button>
+            </Link>
           </div>
         </div>
 
