@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-import ArrowLeft from "../../../assets/images/arrow-left.svg";
-import ArrowRight from "../../../assets/images/arrow-right.svg";
 import CalenderIcon from "../../../assets/images/calendar-h-icon.svg"
 import HomeScheduler from '../HomeScheduler';
 import CarouselComponent from "../Carousel"
 import Pricing from '../Pricing';
-
-
 const SwitchComponents = () => {
 	const [showCarousel, setShowCarousel] = useState(true);
 	const [showCalendar, setShowCalendar] = useState(false);
@@ -21,42 +17,37 @@ const SwitchComponents = () => {
 	}
 	const nextComponent = () => {
 		setActiveArrow(true)
-		if (count > 2) {
+		if (count > 1) {
 			return;
 		}
 		else {
 			setCount(count + 1);
-			console.log(count)
 		}
 		if (count === 0) {
-			console.log(count)
 			setShowCards(true)
 			setShowCarousel(false)
 			setShowCalendar(false)
 		}
 		if (count === 1) {
-			console.log(count)
 			setShowCalendar(true)
 			setShowCards(false)
 			setShowCarousel(false)
 		}
 	}
 	const prevComponent = () => {
-    	setActiveArrow(false)
-		if (count < 0) {
+		setActiveArrow(false)
+		if (count <= 0) {
 			return;
 		}
 		else {
 			setCount(count - 1)
 		}
 		if (count === 1) {
-			console.log(count)
 			setShowCarousel(true)
 			setShowCards(false)
 			setShowCalendar(false)
 		}
 		if (count === 2) {
-			console.log(count)
 			setShowCards(true)
 			setShowCarousel(false)
 			setShowCalendar(false)
@@ -76,7 +67,7 @@ const SwitchComponents = () => {
 									</svg>
 								</div>
 							</button>
-							<img src={CalenderIcon} className="w-2.5 cursor-pointer" />
+							<img src={CalenderIcon} alt="loading" className="w-2.5 cursor-pointer" />
 						</>
 					}
 					{showCarousel &&
@@ -111,8 +102,8 @@ const SwitchComponents = () => {
 						</div>
 					</button>
 					<div className='mr-3'>
-						<div  className={`w-[10px] cursor-pointer
-						 ${ !activeArrow ? "text-[#364A87]" : "text-[#cccccc]"}`} onClick={() => { prevComponent() }}>
+						<div className={`w-[10px] cursor-pointer
+						 ${!activeArrow ? "text-[#364A87]" : "text-[#cccccc]"}`} onClick={() => { prevComponent() }}>
 							<svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 								<path d="M0.295372 4.754C0.340575 4.79267 0.511251 4.958 0.670238 5.094C1.60234 5.94933 4.0339 7.34933 5.30658 7.77667C5.49985 7.84533 5.9885 7.99067 6.24959 8C6.49976 8 6.73824 7.952 6.96581 7.85467C7.24949 7.71867 7.47706 7.50467 7.60175 7.252C7.68203 7.07667 7.80672 6.552 7.80672 6.54267C7.93142 5.96867 8 5.036 8 4.00533C8 3.02333 7.93142 2.12867 7.82932 1.546C7.81763 1.53667 7.69294 0.884666 7.55655 0.661333C7.30638 0.253333 6.81773 5.16787e-08 6.29479 7.45372e-08L6.24959 7.6513e-08C5.90901 0.00999984 5.19279 0.263333 5.19279 0.272667C3.9887 0.700667 1.61325 2.032 0.658549 2.91667C0.658549 2.91667 0.389673 3.144 0.272771 3.286C0.0904038 3.49 -1.86094e-07 3.74267 -1.7505e-07 3.99533C-1.62723e-07 4.27733 0.102094 4.54 0.295372 4.754Z" fill="currentColor" />
 							</svg>

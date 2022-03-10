@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ArrowV from "../../../assets/images/arrowV.svg"
 import UserImg1 from "../../../assets/images/c-r-img1.png"
 import UserImg2 from "../../../assets/images/c-r-img2.png"
@@ -12,18 +13,18 @@ const  CustomerCards = () => {
          {/* dropdown start */}
          <div className="group relative">
                     <button className="button-effects-sec">
-                        <img src={ArrowV} />
+                        <img src={ArrowV} alt="loading" />
                     </button>
                     <nav tabindex="0" className="bg-white invisible  w-32 absolute right-0 top-[24px] transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 shadow rounded-md z-40" >
                         <ul className="">
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Edit</a>
+                                <Link to="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Edit</Link>
                             </li>
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Delete</a>
+                                <Link to="3" className="block px-4 py-2 hover:bg-gray-100 text-sm">Delete</Link>
                             </li>
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Reply</a>
+                                <Link to="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Reply</Link>
                             </li>
                         </ul>
                     </nav>
@@ -42,16 +43,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -67,16 +68,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -92,16 +93,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -117,16 +118,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -142,16 +143,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -167,16 +168,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -192,16 +193,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -217,16 +218,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -242,16 +243,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>
@@ -267,16 +268,16 @@ const  CustomerCards = () => {
         </div>
         <div className='flex justify-center items-center relative'>
             <div className=' w-[6px]'>
-                <img src={UserImg4} className="absolute w-full -top-[14px] z-30 -left-[22px]" />
+                <img src={UserImg4} alt="loading" className="absolute w-full -top-[14px] z-30 -left-[22px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg3} className="absolute w-full -top-[14px] z-20  -left-[8px]" />
+                <img src={UserImg3} alt="loading" className="absolute w-full -top-[14px] z-20  -left-[8px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg2} className="absolute w-full -top-[14px] z-10 left-[4px]" />
+                <img src={UserImg2} alt="loading" className="absolute w-full -top-[14px] z-10 left-[4px]" />
             </div>
             <div className=' w-[6px]'>
-                <img src={UserImg1} className="absolute w-full -top-[14px] z-0 " />
+                <img src={UserImg1} alt="loading" className="absolute w-full -top-[14px] z-0 " />
             </div>
         </div>
     </div>

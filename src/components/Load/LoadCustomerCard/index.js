@@ -1,9 +1,6 @@
 import React from 'react'
 import ArrowV from "../../../assets/images/arrowV.svg"
-import InstImg from "../../../assets/images/instnt-img.svg"
-import ProductImg from "../../../assets/images/product.png"
-import ArrowRight from "../../../assets/images/btn-arrow-r.svg"
-import TimeArrow from "../../../assets/images/timearrow.png"
+import { Link } from 'react-router-dom'
 const LoadCustomerCards = () => {
     return (
         <div className='bg-white rounded-xl w-[33%] px-[22px] py-5  h-[732px]'>
@@ -12,18 +9,18 @@ const LoadCustomerCards = () => {
                 {/* dropdown start */}
                 <div className="group relative">
                     <button className="button-effects-sec">
-                        <img src={ArrowV} />
+                        <img src={ArrowV} alt="Loading" />
                     </button>
                     <nav tabindex="0" className="bg-white invisible  w-32 absolute right-0 top-[24px] transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 shadow-xl rounded-md z-40" >
                         <ul className="">
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Edit</a>
+                                <Link to="" className="block px-4 py-2 hover:bg-gray-100 text-sm">Edit</Link>
                             </li>
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Delete</a>
+                                <Link to="" className="block px-4 py-2 hover:bg-gray-100 text-sm">Delete</Link>
                             </li>
                             <li>
-                                <a href="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Reply</a>
+                                <Link to="" className="block px-4 py-2 hover:bg-gray-100 text-sm">Reply</Link>
                             </li>
                         </ul>
                     </nav>

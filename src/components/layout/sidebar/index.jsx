@@ -9,8 +9,8 @@ const Sidebar = () => {
       <div className='flex flex-col justify-between  items-center my-6'>
         <div className='flex flex-col items-center bg-white '>
           <div className='logoBx flex flex-col items-center mb-[19px]'>
-            <Link to="/"> <img src={Logo} className="w-14" /></Link>
-            <img src={NjImg} className="w-6 mt-2.5 ml-[15px]" />
+            <Link to="/"> <img src={Logo} alt="loading"className="w-14" /></Link>
+            <img src={NjImg} alt="loading" className="w-6 mt-2.5 ml-[15px]" />
           </div>
           <NavLink to="/residental-wash-&-flod" className={({ isActive }) => isActive ? "active-btn sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
           }>
@@ -70,7 +70,7 @@ const Sidebar = () => {
         </div>
         <div className='flex flex-col items-center'>
           <div className='mb-3'>
-            <img src={AuthorImg} className="w-12 ml-3" />
+            <img src={AuthorImg} alt="loading" className="w-12 ml-3" />
           </div>
           <NavLink to="/logout" className={({ isActive }) => isActive ? "active-btn sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
           }>

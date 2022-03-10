@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const ProgressAttendent = () => {
     return (
         <div className='flex justify-between items-center  mt-2.5'>
@@ -31,28 +32,28 @@ const ProgressAttendent = () => {
                         >
                             <ul className="">
                                 <li>
-                                    <a
-                                        href=""
+                                    <Link
+                                       to="#"
                                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
                                     >
                                         Filter
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href=""
+                                    <Link
+                                        to="#"
                                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
                                     >
                                         Move to Dryer
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href=""
+                                    <Link
+                                        to="#"
                                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
                                     >
                                         Show All
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>

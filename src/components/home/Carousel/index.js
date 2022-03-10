@@ -8,13 +8,13 @@ const CarouselComponent = () => {
     <>
       <Carousel showThumbs={false} ariaLabel={false} autoPlay={true} labels={false}>
         <div>
-          <img src={EventShowImg} />
+          <img src={EventShowImg} alt="loading" />
         </div>
         <div>
-          <img src={EventShowImg} />
+          <img src={EventShowImg} alt="loading" />
         </div>
         <div>
-          <img src={EventShowImg} />
+          <img src={EventShowImg} alt="loading" />
         </div>
       </Carousel>
     </>

@@ -7,7 +7,7 @@ const TableManagement = () => {
                 <div className='flex mt-2 items-center'>
                 <th className='font-normal text-[11px] w-[6%] pl-2 text-left  text-[#030229] text-opacity-70 relative'>Date  
                 </th>
-                <img src={DateImg} className="ml-7 mb-0.5" />
+                <img src={DateImg} alt="loading" className="ml-7 mb-0.5" />
                 </div>
                 <th className='font-normal text-[11px] w-[8%] text-[#030229] text-opacity-70'>Customer Name</th>
                 <th className='font-normal text-[11px] w-[6.5%]  text-[#030229] text-opacity-70'>Service Type</th>

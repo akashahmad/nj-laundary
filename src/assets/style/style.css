@@ -190,7 +190,6 @@ input[type=checkbox] {
   transform: scale(1.0);
   color: #fff;
 }
-
 /* dropdown bg change */
 .btn-shadow {
   box-shadow: 0 3px 10px rgba(3, 2, 41, 0.10)

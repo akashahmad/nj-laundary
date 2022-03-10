@@ -15,11 +15,11 @@ const AttendenceDriver = () => {
             </div>
             <div className='flex flex-col justify-center items-center mt-[-22px]'>
               <p className='text-[25px] font-normal text-[#22215B] tracking-[-0.69px]'>Attendance/Driver</p>
-              <img src={ArrowStraight} className="mt-0.5 w-[22px]" />
+              <img src={ArrowStraight} alt="loading" className="mt-0.5 w-[22px]" />
               <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                 <p className='text-xl font-bold bg-[#E0F5FF] text-[#242938] font-roboto py-[9px] px-[98px] rounded-lg'>Service</p>
               </div>
-              <img src={Branch1} className="mt-3" />
+              <img src={Branch1} alt="loading" className="mt-3" />
               <div className='flex items-center justify-between w-[35%] mx-auto mt-5'>
                 <div className='py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                   <p className='text-xl font-bold bg-[#FFF4D8] text-[#242938] font-roboto py-[9px] px-8 rounded-lg'>Pickup</p>
@@ -29,8 +29,8 @@ const AttendenceDriver = () => {
                 </div>
               </div>
               <div className='flex items-center justify-between w-[25.5%] mx-auto mt-3'>
-                <img src={smallArrowattendance} />
-                <img src={smallArrowattendance} />
+                <img src={smallArrowattendance} alt="loading" />
+                <img src={smallArrowattendance} alt="loading" />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
                 <div className='mt-[9px] py-[11px] px-2.5  w-[43%]  border border-[#E5E7EA] rounded-lg cursor-pointer'>
@@ -41,13 +41,13 @@ const AttendenceDriver = () => {
                 </div>
               </div>
               <div>
-                <img src={Arrow2Up} className="mt-3" />
+                <img src={Arrow2Up} alt="loading" className="mt-3" />
               </div>
               <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA] rounded-lg cursor-pointer'>
                 <p className='text-xl font-normal bg-[#F4F5F7] text-[#242938] font-roboto py-[9px] px-[98px] rounded-lg'># of Bags</p>
               </div>
               <div>
-                <img src={Arrow2Down} className="mt-3" />
+                <img src={Arrow2Down} alt="loading" className="mt-3" />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
                 <div className='mt-[9px] py-[11px] px-2.5 border border-[#E5E7EA]  rounded-lg w-[43.5%] cursor-pointer'>
@@ -58,8 +58,8 @@ const AttendenceDriver = () => {
                 </div>
               </div>
               <div className='flex items-center justify-between w-[25.5%] mx-auto mt-[22px]'>
-                <img src={Stright2} />
-                <img src={Stright2} />
+                <img src={Stright2} alt="loading" />
+                <img src={Stright2} alt="loading" />
               </div>
               <div className='flex items-center justify-between w-[38.5%] mx-auto'>
 
