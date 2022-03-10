@@ -5,8 +5,8 @@ console.log(window.location.pathname)
         <div className='flex flex-row justify-between mt-5'>
             <p className='text-2xl font-extrabold'>{headerText}</p>
             <div className='flex justify-between'>
-                <button className={`bg-[#2DA9DF] text-white py-2 px-4 rounded-md mr-3 ${window.location.pathname === "/" ? "block" : "hidden"}`}>Chat</button>
-                <button className='bg-[#2DA9DF] text-white py-2 px-4 rounded-md'>Contact us</button>
+                <button className={`bg-[#2DA9DF] text-white py-2 px-4 rounded-md mr-3 button-effect ${window.location.pathname === "/" ? "block" : "hidden"}`}>Chat</button>
+                <button className='bg-[#2DA9DF] text-white py-2 px-4 rounded-md button-effect'>Contact us</button>
             </div>
         </div>
     )

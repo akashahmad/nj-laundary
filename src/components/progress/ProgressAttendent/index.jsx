@@ -10,7 +10,7 @@ const ProgressAttendent = () => {
                 <p className="text-xs font-bold text-[#22215B] mr-5">Total Processes are 173 in a row.</p>
                 <div className="">
                     <div className="group relative">
-                        <button className="button-effects-sec bg-white pl-5 pr-5 py-2.5 flex justify-between text-[#22215B] text-sm items-center btn-shadow rounded-xl  tracking-[-1px] font-bold hover:bg-[#22215B]  hover:text-white button-atnd mr-3">
+                        <button className="button-effects-sec button-atnd  bg-white pl-5 pr-5 py-2.5 flex justify-between text-[#22215B] text-sm items-center btn-shadow rounded-xl  tracking-[-1px] font-bold hover:bg-[#22215B]  hover:text-white mr-3">
                             Sort & Load
                             <svg
                                 className="ml-3 form-btn"
@@ -40,18 +40,10 @@ const ProgressAttendent = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        to="#"
-                                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                                    >
-                                        Move to Dryer
-                                    </Link>
+                                    <Link to="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Move to Dryer</Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        to="#"
-                                        className="block px-4 py-2 hover:bg-gray-100 text-sm"
-                                    >
+                                    <Link to="#" className="block px-4 py-2 hover:bg-gray-100 text-sm" >
                                         Show All
                                     </Link>
                                 </li>
@@ -59,9 +51,9 @@ const ProgressAttendent = () => {
                         </nav>
                     </div>
                 </div>
-                <button className='font-bold text-sm py-2.5 px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-3 tracking-[-0.4px]'>Filter</button>
-                <button className='font-bold text-sm py-2.5 px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-3 tracking-[-0.4px]'>Move to Dryer</button>
-                <button className='font-bold text-sm bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white py-2.5 px-5 rounded-xl btn-shadow tracking-[-0.4px]'>Show All</button>
+                <button className='button-atnd font-bold text-sm py-2.5 px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-3 tracking-[-0.4px]'>Filter</button>
+                <button className='button-atnd font-bold text-sm py-2.5 px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-3 tracking-[-0.4px]'>Move to Dryer</button>
+                <button className='button-atnd font-bold text-sm bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white py-2.5 px-5 rounded-xl btn-shadow tracking-[-0.4px]'>Show All</button>
             </div>
         </div>
     )

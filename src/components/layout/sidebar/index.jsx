@@ -10,7 +10,7 @@ const Sidebar = () => {
         <div className='flex flex-col items-center bg-white '>
           <div className='logoBx flex flex-col items-center mb-[19px]'>
             <Link to="/"> <img src={Logo} alt="loading"className="w-14" /></Link>
-            <img src={NjImg} alt="loading" className="w-6 mt-2.5 ml-[15px]" />
+            <img src={NjImg} alt="loading" className="w-6 mt-2.5 ml-[15px] cursor-pointer" />
           </div>
           <NavLink to="/residental-wash-&-flod" className={({ isActive }) => isActive ? "active-btn sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
           }>

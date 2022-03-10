@@ -253,3 +253,53 @@ grid-template-columns: 14% repeat(1, 1fr) !important;
 .rs__time {
 height: 46px !important;
 }
+/* Button Effect */
+.button-effect:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+  font-weight: 400;
+  -webkit-box-decoration-break: unset;
+  box-decoration-break: unset;
+}
+.button-atnd:hover {
+  transition: background-color 0.5s ease !important;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  shadow: 0 0 1px transparent;
+  box-shadow: 0 0 8px rgb(0 0 0 / 70%);
+}
+.btn-large:hover {
+  transition: background-color 0.5s ease;
+  transform: scale(1.0);
+  box-shadow: 0 0 8px rgb(0 0 0 / 29%);
+  -webkit-box-decoration-break: unset;
+  box-decoration-break: unset;
+  z-index: 1;
+}
+.cards-effect:hover .card1{
+  color: #2DA9EF !important;
+}
+.cards-effect:hover .card2{
+  color: #FFC327 !important;
+}
+.cards-effect:hover .card3{
+  color: #FF8F6B !important;
+}
+.cards-effect:hover .card4{
+  color: #605BFF !important;
+}
+button:focus{
+  outline: none !important;
+}
+/* Parent hover svg color change */
+.hover-svg-text-change:hover div {
+  color: #fff !important;
+}
+
+.action-btn:hover{
+  box-shadow: 0 0 8px rgb(0 0 0 / 70%);
+  -webkit-box-decoration-break: unset;
+  box-decoration-break: unset;
+}

@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const CarouselComponent = () => {
   return (
     <>
-      <Carousel showThumbs={false} ariaLabel={false} autoPlay={true} labels={false}>
+      <Carousel showThumbs={false} ariaLabel={false} autoPlay={true} labels={false}  showArrows={false} statusFormatter={false} showStatus={false}>
         <div>
           <img src={EventShowImg} alt="loading" />
         </div>
