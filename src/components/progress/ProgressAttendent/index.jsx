@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const ProgressAttendent = () => {
     return (
-        <div className='flex justify-between items-center  mt-2.5'>
+        <div className='flex justify-between items-center  mt-[18px]'>
             <div>
                 <p className='font-bold text-xl text-[#22215B]'>Select Attendant</p>
             </div>
             <div className='progress-dropdown flex items-center '>
-                <p className="text-xs font-bold text-[#22215B] mr-5">Total Processes are 173 in a row.</p>
+                <p className="text-xs  font-normal  text-[#22215B] mr-5">Total Processes are <span className='font-bold'>173</span> in a row.</p>
                 <div className="">
                     <div className="group relative">
                         <button className="button-effects-sec button-atnd  bg-white pl-5 pr-5 py-2.5 flex justify-between text-[#22215B] text-sm items-center btn-shadow rounded-xl  tracking-[-1px] font-bold hover:bg-[#22215B]  hover:text-white mr-3">
@@ -33,7 +33,7 @@ const ProgressAttendent = () => {
                             <ul className="">
                                 <li>
                                     <Link
-                                       to="#"
+                                        to="#"
                                         className="block px-4 py-2 hover:bg-gray-100 text-sm"
                                     >
                                         Filter

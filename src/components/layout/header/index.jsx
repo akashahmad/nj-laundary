@@ -1,12 +1,14 @@
 import React from 'react'
-const Header = ({ headerText }) => {
+const Header = ({ headerText, headerBtnShow }) => {
 
     return (
         <div className='flex flex-row justify-between mt-5'>
             <p className='text-2xl font-extrabold'>{headerText}</p>
             <div className='flex justify-between'>
-                <button className={`bg-[#2DA9DF] text-white py-2 px-4 rounded-md mr-3 button-effect ${window.location.pathname === "/" ? "block" : "hidden"}`}>Chat</button>
-                <button className='bg-[#2DA9DF] text-white py-2 px-4 rounded-md button-effect'>Contact us</button>
+                {headerBtnShow &&
+                    <button className="bg-[#2DA9DF] text-white py-2 px-4 rounded-md mr-3 customs-shadow">Chat</button>
+                }
+                <button className='bg-[#2DA9DF] text-white py-2 px-4 rounded-md customs-shadow'>Contact us</button>
             </div>
         </div>
     )

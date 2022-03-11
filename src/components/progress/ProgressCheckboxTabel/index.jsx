@@ -2,8 +2,11 @@ import React from "react";
 const ProgressCheckBoxTable = () => {
 	function CheckBoxHandler(e) {
 		if (e.target.checked) {
+			e.target.parentNode.parentNode.classList.add("active-customs-shadow");
 			e.target.parentNode.parentNode.style.backgroundColor = "#FFF";
+			
 		} else {
+			e.target.parentNode.parentNode.classList.remove("active-customs-shadow");
 			e.target.parentNode.parentNode.style.backgroundColor = "#fcfcfc";
 		}
 	}
@@ -13,15 +16,19 @@ const ProgressCheckBoxTable = () => {
 
 		for (let i = 1; i < rows.length; i++) {
 			if (val) {
+				rows[i].classList.add("active-customs-shadow");
 				rows[i].style.backgroundColor = "#FFF";
 			} else {
+				rows[i].classList.remove("active-customs-shadow");
 				rows[i].style.backgroundColor = "#fcfcfc";
 			}
 		}
-		for (let i = 0; i < checkboxes.length; i++) {
+		for (let i = 1; i < checkboxes.length; i++) {
 			if (val) {
+				rows[i].classList.add("active-customs-shadow");
 				checkboxes[i].checked = true;
 			} else {
+				rows[i].classList.remove("active-customs-shadow");
 				checkboxes[i].checked = false;
 			}
 		}

@@ -197,6 +197,9 @@ input[type=checkbox] {
 .customs-shadow:hover {
   box-shadow: 0 3px 10px rgba(3, 2, 41, 0.10)
 }
+.active-customs-shadow {
+  box-shadow: 0 3px 10px rgba(3, 2, 41, 0.10)
+}
 /* .progress-table  */
 .row-bg{
   background-color:#fcfcfc ;

@@ -7,17 +7,20 @@ import Load from './pages/load';
 import InProgress from './pages/progress';
 import AttendenceDriver from './pages/AttendenceDriver/index.jsx';
 import Layout from './components/layout';
-const App = () => {
+import { useState } from 'react';
+const App = (props) => {
+  const[headerBtnShow, setHeaderBtnShow] = useState(false);
   return (
     <Router>
-      <Layout headerText="Testing">
+      <Layout headerText="Testing" headerBtnShow={headerBtnShow}>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/" element={<Home setHeaderBtnShow ={setHeaderBtnShow} />}  />
           <Route exact path="/residental-wash-&-flod" element={<ResidentalWashFlod />} />
           <Route exact path="/fold" element={<Fold />} />
           <Route exact path="/load" element={<Load />} />
           <Route exact path="/in-progress" element={<InProgress />} />
-          <Route exact path="/attendence" element={<AttendenceDriver />} />
+          <Route exact path="/attendance" element={<AttendenceDriver />} />
+          <Route path='*' element={<Home setHeaderBtnShow ={setHeaderBtnShow} />} />
         </Routes>
       </Layout>
     </Router>

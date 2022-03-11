@@ -3,13 +3,14 @@ import React from 'react'
 import Cards from '../../components/home/Cards'
 import CardsAction from "../../components/home/CardsAction"
 import SwitchComponents from '../../components/home/SwitchComponents'
-const Home = () => {
+const Home = ({setHeaderBtnShow}) => {
+
   return (
     <>
         <Cards />
         <div className='flex justify-between mt-[28px]'>
           <CardsAction />
-          <SwitchComponents />
+          <SwitchComponents setHeaderBtnShow={setHeaderBtnShow} />
         </div>
     </>
 

@@ -1,39 +1,53 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./sidebar";
 import Header from "./header";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Layout = (props) => {
+  let  {headerBtnShow} = props;
 	const [headerProps, setHeaderProps] = useState({
 		text: "",
 		button: false,
 	});
 	let location = useLocation();
-	const textReturnHandler = () => {
-		switch (window.location.pathname) {
-			case "/":
-				return "some check";
-
-			case "/residental-wash-&-flod":
-				return "some other flod";
-		}
-	};
-	let params = useParams();
 	useEffect(() => {
 		switch (location.pathname) {
 			case "/residental-wash-&-flod":
 				setHeaderProps({
-					text: "changed text",
+					text: "Residential Wash & Flod",
+					button: false,
+				});
+				break;
+        case "/fold":
+				setHeaderProps({
+					text: "Fold",
+					button: false,
+				});
+				break;
+        case "/load":
+				setHeaderProps({
+					text: "Start / Load",
+					button: false,
+				});
+				break;
+        case "/in-progress":
+				setHeaderProps({
+					text: "In Progress",
+					button: false,
+				});
+				break;
+        case "/attendence":
+				setHeaderProps({
+					text: "Attendance/Driver",
 					button: false,
 				});
 				break;
 			default:
 				setHeaderProps({
-					text: "home text",
+					text: "Welcome Back, MD!",
 					button: false,
 				});
 		}
-	
 	}, [location]);
 
 	return (
@@ -41,7 +55,7 @@ const Layout = (props) => {
 			<div className="flex flex-row my-[30px]">
 				<Sidebar />
 				<div className="w-full ml-[104px]">
-					<Header headerText={headerProps.text} />
+					<Header headerText={headerProps.text} headerBtnShow={headerBtnShow} />
 					{props?.children}
 				</div>
 			</div>

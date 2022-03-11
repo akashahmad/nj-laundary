@@ -8,7 +8,7 @@ const Cards = () => {
     return (
         <div className='flex justify-between mt-6'>
 
-            <div className='w-[22.5%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer button-effect cards-effect'>
+            <div className='w-[22.5%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
                 <Link to="/fold">
                     <div className='flex justify-center items-center'>
                         <div className='p-5 bg-[#EAF6FC] rounded-full'>
@@ -21,7 +21,7 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[24%] bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer button-effect cards-effect'>
+            <div className='w-[24%] bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
                 <Link to="/in-progress">
                     <div className=' flex justify-center items-center'>
                         <div className='p-5 bg-[#FFF7E1] rounded-full'>
@@ -34,7 +34,7 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[25%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer button-effect cards-effect'>
+            <div className='w-[25%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
                 <Link to="/load">
                     <div className='flex justify-center items-center'>
                         <div className='p-5 bg-[#FFF4F0] rounded-full'>
@@ -47,7 +47,7 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[24%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer button-effect cards-effect'>
+            <div className='w-[24%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
                 <Link to="/residental-wash-&-flod">
                     <div className='flex justify-center items-center'>
                         <div className='p-5 bg-[#EFEFFF] rounded-full'>

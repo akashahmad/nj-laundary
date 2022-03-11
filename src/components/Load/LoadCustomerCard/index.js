@@ -44,7 +44,6 @@ const LoadCustomerCards = () => {
                     <p className='font-bold text-[#22215B] text-sm'>Notes</p>
                     <p className='font-light text-[#22215B] text-sm w-[74%] text-right leading-[17px] tracking-[-0.4px]'>Something notes for the Product for washing.</p>
                 </div>
-
             </div>
             <div className='mt-3.5  pt-2.5 pb-4 px-5 border-2 border-white hover:border-[#22215B] rounded-xl customer-shadow'>
                 <div className='flex justify-between items-center mt-2'>
