@@ -13,9 +13,9 @@ const TableManagement = () => {
                 <th className='font-normal text-[11px] w-[6.5%]  text-[#030229] text-opacity-70'>Service Type</th>
                 <th className='font-normal text-[11px] w-[5%] text-[#030229] text-opacity-70'>Weight in</th>
                 <th className='font-normal text-[11px] w-[5%] text-[#030229] text-opacity-70'>Weight out</th>
-                <th className='font-normal text-[11px] w-[5.5%] text-[#030229] text-opacity-70'>Total Bags Picked Up</th>
-                <th className='font-normal text-[11px] w-[6%] text-[#030229] text-opacity-70'>Total Hangers To Deliver</th>
-                <th className='font-normal text-[11px] w-[5.3%] text-[#030229] text-opacity-70'>Total bags To Deliver</th>
+                <th className='font-normal text-[11px] w-[5.5%] text-[#030229] text-opacity-70 text-left'>Total Bags Picked Up</th>
+                <th className='font-normal text-[11px] w-[6%] text-[#030229] text-opacity-70 text-left'>Total Hangers To Deliver</th>
+                <th className='font-normal text-[11px] w-[5.3%] text-[#030229] text-opacity-70 '>Total bags To Deliver</th>
                 <th className='font-normal text-[11px] w-[6.5%] text-[#030229] text-opacity-70'>Bag color</th>
                 <th className='font-normal text-[11px] w-[5%] text-[#030229] text-opacity-70'>Washer #</th>
                 <th className='font-normal text-[11px] w-[6.5%] text-[#030229] text-opacity-70'>Washer Time</th>

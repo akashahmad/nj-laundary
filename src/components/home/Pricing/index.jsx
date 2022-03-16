@@ -17,7 +17,7 @@ const Pricing = () => {
                         <img src={DotICon} alt="loading" className="w-[20px]" />
                     </div>
                 </div>
-                <p className='font-normal leading-4 text-[10px] mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <p className='font-normal text-[#0D062D] leading-4 text-[10px] mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 <div className='flex justify-between mt-3'>
                     <div>
                         <img src={Author2Img} alt="loading" className="w-[22px]" />
@@ -49,7 +49,7 @@ const Pricing = () => {
                         <img src={DotICon} alt="loading" className="w-[20px]" />
                     </div>
                 </div>
-                <p className='font-normal leading-4 text-[10px] mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <p className='font-normal leading-4 text-[10px] mt-1 text-[#0D062D]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 <div className='flex justify-between mt-3'>
                     <div>
                         <img src={Author2Img} alt="loading" className="w-[22px]" />
@@ -82,7 +82,7 @@ const Pricing = () => {
                         <img src={DotICon} alt="loading" className="w-[20px]" />
                     </div>
                 </div>
-                <p className='font-normal leading-4 text-[10px] mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <p className='font-normal leading-4 text-[10px] mt-1 text-[#0D062D]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
                 <div className='flex justify-between mt-3'>
                     <div>
                         <img src={Author2Img} alt="loading" className="w-[22px]" />

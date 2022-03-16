@@ -22,8 +22,8 @@ const LoadQRScanner = () => {
                         </div>
                         <div className='w-[37.5%]'>
                             <label className='font-bold text-sm text-[#22215B]'>Washing Time</label>
-                            <div className='mt-2 relative'>
-                                <div className="customer-shadow px-5 pt-3 pb-[9px] flex justify-between rounded-xl mt-2.5">
+                            <div className='mt-2 relative w-full'>
+                                <div className="customer-shadow px-5 pt-3 pb-[9px] flex justify-between rounded-xl mt-2.5 w-full">
                                     <LocalizationProvider dateAdapter={AdapterDateFns}>
                                         <Stack spacing={1}>
                                             <DesktopTimePicker
