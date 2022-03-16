@@ -15,7 +15,7 @@ const  CustomerCards = () => {
                     <button className="button-effects-sec">
                         <img src={ArrowV} alt="loading" />
                     </button>
-                    <nav tabindex="0" className="bg-white invisible  w-32 absolute right-0 top-[24px] transition-all opacity-0 group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1 shadow rounded-md z-40" >
+                    <nav tabindex="0" className="bg-white invisible  w-32 absolute right-0 top-[24px] transition-all opacity-0 group-focus-within:visible np, group-focus-within:opacity-100 group-focus-within:translate-y-1 shadow rounded-md z-40" >
                         <ul className="">
                             <li>
                                 <Link to="#" className="block px-4 py-2 hover:bg-gray-100 text-sm">Edit</Link>

@@ -53,12 +53,8 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     }
 .customer-shadow{
-    /* box-shadow: 1px 17px 44px rgba(3, 2, 41, 0.07); */
     box-shadow: 0px 0px 22px rgb(37 10 63 / 7%);
 }
-/* input[type="time"]::-webkit-calendar-picker-indicator {
-    background: none;
-} */
 input[type=checkbox] {
     transform: scale(1.5);
 }
@@ -68,7 +64,6 @@ input[type=checkbox] {
     display: inline-block;
     visibility: visible;
   }
-  
   .purple_checkbox:checked:after {
     content: "\2714";
     box-shadow: 0px 2px 4px rgba(155, 155, 155, 0.15);
@@ -300,7 +295,6 @@ button:focus{
 .hover-svg-text-change:hover div {
   color: #fff !important;
 }
-
 .action-btn:hover{
   box-shadow: 0 0 8px rgb(0 0 0 / 70%);
   -webkit-box-decoration-break: unset;

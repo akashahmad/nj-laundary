@@ -16,8 +16,8 @@ const LoadQRScanner = () => {
                         <div className='w-[60.3%]'>
                             <label className='font-bold text-sm text-[#22215B] mr-[18px]'>Washing Intst.</label>
                             <div className='mt-2.5 relative'>
-                                <input type="text" name="" value="418369532143dfgfghg567" className='text-sm font-normal w-full py-3 px-[18px] customer-shadow rounded-xl outline-none ' />
-                                <img src={InstImg} alt="Loading" className="absolute top-[13px] right-[28px]" />
+                                <input type="text" name="" defaultValue="418369532143dfgfghg567" className='text-sm font-normal w-full py-3 px-[18px] customer-shadow rounded-xl outline-none ' />
+                                <img src={InstImg} alt="Loading" className="absolute top-[13px] right-[28px] cursor-pointer" />
                             </div>
                         </div>
                         <div className='w-[37.5%]'>

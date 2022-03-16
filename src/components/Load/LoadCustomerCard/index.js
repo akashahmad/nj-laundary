@@ -3,7 +3,7 @@ import ArrowV from "../../../assets/images/arrowV.svg"
 import { Link } from 'react-router-dom'
 const LoadCustomerCards = () => {
     return (
-        <div className='bg-white rounded-xl w-[33%] px-[22px] py-5  h-[732px]'>
+        <div className='bg-white rounded-xl w-[33%] px-[22px] py-5 h-[732px] cursor-pointer'>
             <div className='flex justify-between pr-10 mb-2.5'>
                 <h2 className='text-2xl font-bold'>Customers</h2>
                 {/* dropdown start */}

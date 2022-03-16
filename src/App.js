@@ -8,7 +8,7 @@ import InProgress from './pages/progress';
 import AttendenceDriver from './pages/AttendenceDriver/index.jsx';
 import Layout from './components/layout';
 import { useState } from 'react';
-const App = (props) => {
+const App = () => {
   const[headerBtnShow, setHeaderBtnShow] = useState(false);
   return (
     <Router>
@@ -20,7 +20,6 @@ const App = (props) => {
           <Route exact path="/load" element={<Load />} />
           <Route exact path="/in-progress" element={<InProgress />} />
           <Route exact path="/attendance" element={<AttendenceDriver />} />
-          <Route path='*' element={<Home setHeaderBtnShow ={setHeaderBtnShow} />} />
         </Routes>
       </Layout>
     </Router>

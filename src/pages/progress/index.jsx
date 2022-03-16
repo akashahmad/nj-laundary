@@ -1,13 +1,13 @@
-import React from 'react'
-import ProgressAttendent from '../../components/progress/ProgressAttendent'
-import ProgressCheckBoxTable from '../../components/progress/ProgressCheckboxTabel'
+import React from "react";
+import ProgressAttendent from "../../components/progress/ProgressAttendent";
+import ProgressCheckBoxTable from "../../components/progress/ProgressCheckboxTabel";
 const InProgress = () => {
-	return (
-		<>
-			<ProgressAttendent />
-			<ProgressCheckBoxTable />
-		</>
-	)
-}
+  return (
+    <>
+      <ProgressAttendent />
+      <ProgressCheckBoxTable />
+    </>
+  );
+};
 
-export default InProgress
+export default InProgress;
