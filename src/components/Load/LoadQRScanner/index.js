@@ -9,21 +9,21 @@ import DesktopTimePicker from '@mui/lab/DesktopTimePicker';
 const LoadQRScanner = () => {
     const [value, setValue] = React.useState(new Date('2018-01-01T00:00:00.000Z'));
     return (
-        <div className='ml-12   w-[63%] '>
+        <div className='ml-0 xl:ml-12 w-full  xl:w-[63%] '>
             <form action="" method="">
-                <div className='w-full rounded-xl bg-white px-[28px] pt-6 pb-[28px] mb-5'>
-                    <div className='flex justify-between'>
-                        <div className='w-[60.3%]'>
+                <div className='w-full rounded-xl bg-white px-[28px] pt-6 pb-[28px] mb-5 mt-4 xl:mt-0'>
+                    <div className='flex flex-col md:flex-row justify-between'>
+                        <div className='w-full md:w-[60.3%]'>
                             <label className='font-bold text-sm text-[#22215B] mr-[18px]'>Washing Intst.</label>
                             <div className='mt-2.5 relative'>
                                 <input type="text" name="" defaultValue="418369532143dfgfghg567" className='text-sm font-normal w-full py-3 px-[18px] customer-shadow rounded-xl outline-none ' />
                                 <img src={InstImg} alt="Loading" className="absolute top-[13px] right-[28px] cursor-pointer" />
                             </div>
                         </div>
-                        <div className='w-[37.5%]'>
+                        <div className='w-full md:w-[37.5%]'>
                             <label className='font-bold text-sm text-[#22215B]'>Washing Time</label>
                             <div className='mt-2 relative w-full'>
-                                <div className="customer-shadow px-5 pt-3 pb-[9px] flex justify-between rounded-xl mt-2.5 w-full">
+                                <div className="customer-shadow px-5 pt-3 pb-[9px] rounded-xl mt-2.5 w-full">
                                     <LocalizationProvider dateAdapter={AdapterDateFns}>
                                         <Stack spacing={1}>
                                             <DesktopTimePicker
@@ -41,176 +41,176 @@ const LoadQRScanner = () => {
                     </div>
                 </div>
                 <div className='w-full rounded-xl bg-white px-[28px] pt-[30px] pb-[28px]'>
-                    <div className='flex justify-start  items-center pb-1 bg-[#F6F6F9]'>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                    <div className='flex justify-start flex-wrap xl:flex-nowrap items-center pb-1 bg-[#F6F6F9]'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                    </div>
-                    <div className='flex justify-start  items-center pb-1 bg-[#F6F6F9]'>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
                     </div>
-                    <div className='flex justify-start  items-center pb-1 bg-[#F6F6F9]'>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                    <div className='flex justify-start flex-wrap xl:flex-nowrap items-center pb-1 bg-[#F6F6F9]'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                    </div>
+                    <div className='flex justify-start flex-wrap xl:flex-nowrap items-center pb-1 bg-[#F6F6F9]'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[8px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                    </div>
-                    <div className='flex justify-start  items-center pb-1 bg-[#F6F6F9]'>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
-                            <p className='text-[8px] font-bold'>Backing Soda</p>
-                            <img src={product1Img} alt="Loading" className="w-[38px]" />
-                            <p className='text-[10px] font-bold'>$1.25 per load</p>
-                        </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
                     </div>
-                    <div className='flex justify-start  items-center  bg-[#F6F6F9]'>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                    <div className='flex justify-start flex-wrap xl:flex-nowrap items-center pb-1 bg-[#F6F6F9]'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>
                         </div>
-                        <div className='flex flex-col items-center bg-white w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                    </div>
+                    <div className='flex justify-start flex-wrap xl:flex-nowrap items-center  bg-[#F6F6F9]'>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
+                            <p className='text-[8px] font-bold'>Backing Soda</p>
+                            <img src={product1Img} alt="Loading" className="w-[38px]" />
+                            <p className='text-[10px] font-bold'>$1.25 per load</p>
+                        </div>
+                        <div className='flex flex-col items-center bg-white w-[30%]  lg:w-[12%] xl:w-[12%]  customs-shadow px-0.5 pt-1 pb-2.5 mr-1  cursor-pointer'>
                             <p className='text-[8px] font-bold'>Backing Soda</p>
                             <img src={product1Img} alt="Loading" className="w-[38px]" />
                             <p className='text-[10px] font-bold'>$1.25 per load</p>

@@ -7,7 +7,7 @@ const Home = ({ setHeaderBtnShow }) => {
   return (
     <>
       <Cards />
-      <div className="flex justify-between mt-[28px]">
+      <div className="flex flex-col lg:flex-row justify-between mt-[28px]">
         <CardsAction />
         <SwitchComponents setHeaderBtnShow={setHeaderBtnShow} />
       </div>

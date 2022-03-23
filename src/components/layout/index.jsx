@@ -51,10 +51,10 @@ const Layout = (props) => {
 	}, [location]);
 
 	return (
-		<div className="px-[34px]">
+		<div className="px-6 md:px-[34px]">
 			<div className="flex flex-row my-[30px]">
 				<Sidebar />
-				<div className="w-full ml-[104px]">
+				<div className="w-full ml-0 lg:ml-[104px]">
 					<Header headerText={headerProps.text} headerBtnShow={headerBtnShow} />
 					{props?.children}
 				</div>

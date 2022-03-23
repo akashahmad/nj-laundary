@@ -6,11 +6,10 @@ import Check from "../../../assets/images/check.svg"
 import Subtract from "../../../assets/images/Subtract.svg"
 const Cards = () => {
     return (
-        <div className='flex justify-between mt-6'>
-
-            <div className='w-[22.5%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
+        <div className='flex sm:flex-col md:flex-row flex-wrap justify-between mt-6'>
+            <div className='w-full md:w-[45%] lg:w-[40%] xl:w-[22.5%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow mb-3 md:mb-0 '>
                 <Link to="/fold">
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-start xl:justify-center items-center'>
                         <div className='p-5 bg-[#EAF6FC] rounded-full'>
                             <img src={BagImg} alt="loading" className="w-[16px]" />
                         </div>
@@ -21,9 +20,9 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[24%] bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
+            <div className='w-full md:w-[45%] lg:w-[40%] xl:w-[24%] bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow mb-3 md:mb-0'>
                 <Link to="/in-progress">
-                    <div className=' flex justify-center items-center'>
+                    <div className='flex justify-start xl:justify-center  items-center'>
                         <div className='p-5 bg-[#FFF7E1] rounded-full'>
                             <img src={Calendar} alt="loading" className="w-[16px]" />
                         </div>
@@ -34,9 +33,9 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[25%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
+            <div className='w-full md:w-[45%] lg:w-[40%] xl:w-[25%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow mb-3 md:mb-0 mt-0 md:mt-3 xl:mt-0'>
                 <Link to="/load">
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-start items-center'>
                         <div className='p-5 bg-[#FFF4F0] rounded-full'>
                             <img src={Subtract} alt="loading" className="w-[16px]" />
                         </div>
@@ -47,9 +46,9 @@ const Cards = () => {
                     </div>
                 </Link>
             </div>
-            <div className='w-[24%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow'>
+            <div className='w-full md:w-[45%] lg:w-[40%] xl:w-[24%]  bg-white rounded-xl hover:rounded-xl pl-7 pr-12 py-7 cursor-pointer customs-shadow mb-3 md:mb-0 mt-0 md:mt-3 xl:mt-0'>
                 <Link to="/residental-wash-&-flod">
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-start  items-center'>
                         <div className='p-5 bg-[#EFEFFF] rounded-full'>
                             <img src={Check} alt="loading" className="w-[16px] h-[18px]" />
                         </div>

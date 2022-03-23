@@ -300,3 +300,31 @@ button:focus{
   -webkit-box-decoration-break: unset;
   box-decoration-break: unset;
 }
+
+/* Mobile nav */
+.mobile-nav{
+  width: 100%;
+  overflow: hidden;
+  animation: mobileNav 0.8s linear;
+}
+@keyframes mobileNav{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+.mobile-nav-left{
+  width: 100%;
+  overflow: hidden;
+  animation: mobile-nav-left 0.8s linear;
+}
+@keyframes mobile-nav-left{
+  from{
+    width: 100%;
+  }
+  to{
+    width: 0%;
+  }
+}

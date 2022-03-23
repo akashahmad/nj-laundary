@@ -57,12 +57,12 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
     }
   };
   return (
-    <div className="w-[46.5%] bg-white rounded-xl">
-      <div className="flex justify-between items-center mt-4 pl-5 pr-8">
-        <div className="flex">
+    <div className="w-full lg:w-[46.5%] bg-white rounded-xl mt-6  lg:mt-0">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-4 pl-5 pr-8 w-full">
+        <div className="flex  mt-3 lg:mt-0">
           {showCalendar && (
             <>
-              <p className="text-lg font-semibold mr-4">December 2, 2021</p>
+              <p className="text-base lg:text-lg font-semibold mr-4 lg:mr-2 xl:mr-4">December 2, 2021</p>
               <button className="mr-2">
                 <div className="w-[14px] text-[#364A87]">
                   <svg
@@ -89,16 +89,16 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
             </>
           )}
           {showCarousel && (
-            <p className="text-lg font-semibold mr-4">Upcoming Events</p>
+            <p className="text-base md:text-lg font-semibold mr-0 lg:mr-4 mt-4 lg:mt-0">Upcoming Events</p>
           )}
           {showCards && (
-            <p className="text-lg font-semibold mr-4">December 2, 2021</p>
+            <p className="text-base md:text-lg font-semibold mr-0 md:mr-4 mt-4 md:mt-0">December 2, 2021</p>
           )}
         </div>
 
-        <div className="flex justify-center items-center ">
+        <div className="flex flex-row md:flex-row justify-center items-center w-full md:w-[33%] relative">
           <button
-            className={`mr-4 pl-[7px] pr-2 py-[6px] shadow rounded-lg  btn-hover hover:bg-[#364A87]  hover:text-white ${
+            className={`mr-2.5 md:mr-4 pl-[7px] pr-2 py-[6px] shadow rounded-lg  btn-hover hover:bg-[#364A87]  hover:text-white ${
               showCarousel ? "bg-[#364A87]" : "bg-white"
             }`}
           >
@@ -129,7 +129,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
             </div>
           </button>
           <button
-            className={`mr-4 pl-[7px] pr-2 py-[6px] bg-white hover:bg-[#364A87] shadow rounded-lg btn-hover ${
+            className={`mr-2.5 md:mr-4 pl-[7px] pr-2 py-[6px] bg-white hover:bg-[#364A87] shadow rounded-lg btn-hover ${
               showCards ? "bg-[#364A87]" : "bg-white"
             }`}
           >
@@ -158,7 +158,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
             </div>
           </button>
           <button
-            className={`mr-4 pl-[7px] pr-2.5 py-[6px]  hover:bg-[#364A87] shadow rounded-lg btn-hover ${
+            className={`mr-0 md:mr-4 pl-[7px] pr-2.5 py-[6px]  hover:bg-[#364A87] shadow rounded-lg btn-hover ${
               showCalendar ? "bg-[#364A87] " : "bg-white"
             }`}
           >
@@ -186,7 +186,8 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
               </svg>
             </div>
           </button>
-          <div className="mr-3">
+          <div className="flex justify-between">
+          <div className="mr-3 absolute left-0 lg:relative">
             <div
               className={`w-[10px] cursor-pointer
 						 ${!activeArrow ? "text-[#364A87]" : "text-[#cccccc]"}`}
@@ -208,8 +209,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
               </svg>
             </div>
           </div>
-          <div
-            className={` w-[10px] cursor-pointer ${
+          <div className={` w-[10px] cursor-pointer absolute lg:relative right-0 md:position-unset ${
               activeArrow ? "text-[#364A87]" : "text-[#cccccc]"
             }`}
             onClick={nextComponent}
@@ -226,6 +226,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
                 fill="currentColor"
               />
             </svg>
+          </div>
           </div>
         </div>
       </div>

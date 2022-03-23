@@ -5,13 +5,14 @@ import NjImg from "../../../assets/images/nj.png";
 import AuthorImg from "../../../assets/images/author.png";
 const Sidebar = () => {
   return (
-    <div className="bg-white flex justify-between h-[92vh] fixed  w-20 rounded-xl ">
-      <div className="flex flex-col justify-between  items-center my-6">
-        <div className="flex flex-col items-center bg-white ">
+    <div className="hidden  lg:block">
+    <div className="bg-white flex justify-between h-[92vh] fixed md:w-14 lg:w-20 rounded-xl ">
+      <div className="flex flex-col justify-between  items-center my-6 lg:mr-[13px]">
+        <div className="flex flex-col items-center bg-white md:mr-5 lg:mr-0">
           <div className="logoBx flex flex-col items-center mb-[19px]">
             <Link to="/">
               {" "}
-              <img src={Logo} alt="loading" className="w-14" />
+              <img src={Logo} alt="loading" className="md:w-12 lg:w-14" />
             </Link>
             <img
               src={NjImg}
@@ -23,7 +24,7 @@ const Sidebar = () => {
             to=""
             className="active-btn sidebar-btn bg-gradient-to-r from-[#D7EFF9]"
           >
-            <div className="sidebar-btn py-3.5 pl-7 pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state">
+            <div className="sidebar-btn py-3.5 pl-4 lg:pl-7 md:pr-1 lg:pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state">
               <div className="text-[#2DA9EF] hover:text-[#2DA9EF] w-[21px] mr-1 ">
                 <svg
                   width="22"
@@ -48,7 +49,7 @@ const Sidebar = () => {
             //  className={({ isActive }) => isActive ? "sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
             // }
           >
-            <div className="sidebar-btn py-3.5  pl-7 pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
+            <div className="sidebar-btn py-3.5  pl-4 lg:pl-7 md:pr-1 lg:pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
               <div className="w-[25px] text-[#2DA9EF] hover:text-[#2DA9EF]">
                 <svg
                   width="26"
@@ -73,7 +74,7 @@ const Sidebar = () => {
             //  className={({ isActive }) => isActive ? "sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
             // }
           >
-            <div className="py-3.5 pl-7 pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
+            <div className="py-3.5 pl-4 lg:pl-7 md:pr-1 lg:pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
               <div className="w-[25px] text-[#2DA9EF] hover:text-[#2DA9EF]">
                 <svg
                   width="26"
@@ -108,7 +109,7 @@ const Sidebar = () => {
             // className={({ isActive }) => isActive ? "sidebar-btn bg-gradient-to-r from-[#D7EFF9]" : "inactive"
             // }
           >
-            <div className="py-3.5 pl-7 pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
+            <div className="py-3.5 pl-4 lg:pl-7 md:pr-1 lg:pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
               <div className="w-[25px] text-[#2DA9EF] hover:text-[#2DA9EF]">
                 <svg
                   width="26"
@@ -129,7 +130,7 @@ const Sidebar = () => {
             </div>
           </NavLink>
           <NavLink to="">
-            <div className="py-3.5 pl-7 pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
+            <div className="py-3.5 pl-4 lg:pl-7 md:pr-1 lg:pr-[14px]   hover:bg-gradient-to-r from-[#D7EFF9] hover-state inactive">
               <div className="w-[25px] text-[#2DA9EF] hover:text-[#2DA9EF]">
                 <svg
                   width="26"
@@ -177,6 +178,7 @@ const Sidebar = () => {
           </NavLink>
         </div>
       </div>
+    </div>
     </div>
   );
 };
