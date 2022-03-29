@@ -300,7 +300,98 @@ button:focus{
   -webkit-box-decoration-break: unset;
   box-decoration-break: unset;
 }
-
+/* calender  */
+/* sheduler design */
+.css-1ypfif-MuiTypography-root {
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-sbo95e-MuiTypography-root {
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-1gqyz35-MuiTypography-root {
+  font-size: 12px !important;
+  font-family: unset !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  font-family: unset !important;
+  font-size: 14px !important;
+}
+.css-1y942vo-MuiButtonBase-root-MuiButton-root {
+  font-family: unset !important;
+  font-size: 14px !important;
+}
+.css-m1a27h {
+  margin-top: 15px !important;
+}
+.css-3f54eu {
+  position: relative;
+  display: grid;
+  grid-template-columns: 14% repeat(6, 1fr) !important;
+}
+.css-fpqwey {
+  position: relative;
+  display: grid;
+  grid-template-columns: 14% repeat(1, 1fr) !important;
+}
+.rs__time {
+  height: 50px !important;
+}
+.btn-hover:hover svg {
+  transform: scale(1);
+  color: #fff;
+}
+/* new sheduler  */
+.fc-toolbar-chunk {
+  display: none !important;
+}
+.fc-timegrid-slot-minor {
+  display: none !important;
+}
+.fc-scrollgrid-shrink-cushion {
+  padding: 10px !important;
+}
+tbody {
+  cursor: pointer;
+}
+.fc-media-screen {
+  min-height: 450px !important;
+}
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+  text-align: left !important;
+}
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-right: 1px solid #ddd !important;
+}
+.fc-timegrid-slot-label{
+  background-color: white !important;
+  transform: translateY(20px);
+}
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 1px solid #ddd;
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+.fc .fc-timegrid-slot {
+  background-color: white !important;
+  border-bottom: 1px solid #ddd !important;
+}
+.fc-theme-standard .fc-scrollgrid {
+  border: 0px solid #ddd !important;
+  border: 0px solid var(--fc-border-color, #ddd) !important;
+}
+.fc-scrollgrid-shrink-cushion {
+  padding: 0px 3px 10px 3px !important;
+  font-size: 12px !important;
+}
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 0px !important;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1em !important;
+}
 /* Mobile nav */
 .mobile-nav{
   width: 100%;

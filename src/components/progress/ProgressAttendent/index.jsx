@@ -6,13 +6,14 @@ const ProgressAttendent = () => {
       <div>
         <p className="font-bold text-base md:text-sm lg:text-xl text-[#22215B]">Select Attendant</p>
       </div>
-      <div className="progress-dropdown flex flex-col md:flex-row items-left lg:items-center w-full md:w-[74%] lg:w-[56%]">
+      <div className="progress-dropdown flex flex-col md:flex-row items-left lg:items-center w-full md:w-[74%] 
+      lg:w-[78%] xl:w-[60%]">
         <p className="text-xs text-[10px] lg:text-xs w-full md:w-[42%] lg:w-[27%] font-normal  text-[#22215B] mr-0 md:mr-5 mt-2 lg:mt-0">
           Total Processes are <span className="font-bold">173</span> in a row.
         </p>
         <div className="flex flex-wrap md:flex-row justify-between w-full lg:w-[70%]">
           <div className="group relative w-[47%] md:w-[24%] lg:w-[28%] mr-3">
-            <button className="button-effects-sec button-atnd w-full bg-white px-2.5 lg:px-5 py-2.5 flex justify-center lg:justify-between text-[#22215B] text-xs md:text-[10px] lg:text-sm items-center btn-shadow rounded-xl  tracking-[-1px] font-bold hover:bg-[#22215B]  hover:text-white  mt-3 md:mt-0">
+            <button className="button-effects-sec button-atnd w-full bg-white py-2.5 flex justify-center  text-[#22215B] text-xs md:text-[10px] lg:text-sm items-center btn-shadow rounded-xl  tracking-[-1px] font-bold hover:bg-[#22215B]  hover:text-white  mt-3 md:mt-0">
               Sort & Load
               <svg
                 className="ml-3 form-btn"
@@ -60,13 +61,13 @@ const ProgressAttendent = () => {
               </ul>
             </nav>
           </div>
-          <button className="button-atnd w-[47%] md:w-[16%] lg:w-[15%] font-bold text-xs md:text-[10px] lg:text-sm py-2.5 px-[35px] md:px-3 lg:px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-0 md:mr-3 tracking-[-0.4px] mt-3 md:mt-0">
+          <button className="button-atnd w-[47%] md:w-[16%] lg:w-[15%] font-bold text-xs md:text-[10px] lg:text-sm py-2.5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow mr-0 md:mr-3 tracking-[-0.4px] mt-3 md:mt-0">
             Filter
           </button>
-          <button className="button-atnd w-[47%] md:w-[28%] lg:w-[28%] font-bold text-xs md:text-[10px] lg:text-sm py-2.5 px-5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow lg:mr-3 tracking-[-0.4px] mt-3 md:mt-0">
+          <button className="button-atnd w-[47%] md:w-[28%] lg:w-[28%] font-bold text-xs md:text-[10px] lg:text-sm py-2.5 bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white rounded-xl btn-shadow lg:mr-3 tracking-[-0.4px] mt-3 md:mt-0">
             Move to Dryer
           </button>
-          <button className="button-atnd w-[47%] md:w-[18%] lg:w-[21%] font-bold text-xs md:text-[10px] lg:text-sm bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white py-2.5 px-6 md:px-3 lg:px-5 rounded-xl btn-shadow tracking-[-0.4px] mt-3 md:mt-0">
+          <button className="button-atnd w-[47%] md:w-[18%] lg:w-[21%] font-bold text-xs md:text-[10px] lg:text-sm bg-[#fff] hover:bg-[#22215B] text-[#22215B] hover:text-white py-2.5 rounded-xl btn-shadow tracking-[-0.4px] mt-3 md:mt-0">
             Show All
           </button>
         </div>

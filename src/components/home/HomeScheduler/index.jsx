@@ -1,29 +1,23 @@
-import React from 'react'
-//Schdedular
-// import { Scheduler } from "@aldabil/react-scheduler";
-const HomeScheduler = () => {
-  return (
-    // <Scheduler
-    //   view="month"
-    //   height="430"
-    //   events={[
-    //     {
-    //       event_id: 1,
-    //       title: "Event 1",
-    //       start: new Date("2021 5 2 09:30"),
-    //       end: new Date("2021 5 2 10:30"),
-    //     },
-    //     {
-    //       event_id: 2,
-    //       title: "Event 2",
-    //       start: new Date("2021 5 4 10:00"),
-    //       end: new Date("2021 5 4 11:00"),
-    //     },
-    //   ]}
-    // />
-    <>
-    </>
-  )
-}
+import React from "react";
+import FullCalendar from "@fullcalendar/react";
+import timeGridPlugin from "@fullcalendar/timegrid";
 
-export default HomeScheduler
+const HomeScheduler = () => {
+  const events = [{ title: "today's event", date: new Date() }];
+  return (
+    <FullCalendar
+      plugins={[timeGridPlugin]}
+      initialView="timeGridWeek"
+      allDaySlot={false}
+      dayHeaders={false}
+      customButtons={false}
+      selectable={"true"}
+      editable={true}
+      selectAllow={true}
+      titleFormat={""}
+      slotLabelFormat={{ hour: "numeric", minute: "2-digit" }}
+    />
+  );
+};
+
+export default HomeScheduler;
