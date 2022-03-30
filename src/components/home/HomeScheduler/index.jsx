@@ -35,6 +35,7 @@ const HomeScheduler = () => {
   ]
 }
 
+
   return (
     <FullCalendar
       plugins={[timeGridPlugin]}
