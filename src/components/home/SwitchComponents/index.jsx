@@ -62,8 +62,8 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
         <div className="flex  mt-3 lg:mt-0">
           {showCalendar && (
             <>
-              <p className="text-base lg:text-lg font-semibold mr-4 lg:mr-2 xl:mr-4">December 2, 2021</p>
-              <button className="mr-2">
+              <p className="text-base lg:text-lg font-semibold mr-4 lg:mr-2 xl:mr-4 w-[160px]"></p>
+              {/* <button className="mr-2">
                 <div className="w-[14px] text-[#364A87]">
                   <svg
                     width="18"
@@ -85,7 +85,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
                 src={CalenderIcon}
                 alt="loading"
                 className="w-2.5 cursor-pointer"
-              />
+              /> */}
             </>
           )}
           {showCarousel && (
@@ -231,7 +231,7 @@ const SwitchComponents = ({ setHeaderBtnShow }) => {
         </div>
       </div>
       <div>
-        <div className="my-4 mr-8 ml-5  ">
+        <div className="my-4 mr-8 ml-5 relative">
           {showCarousel && <CarouselComponent />}
           {showCards && <Pricing />}
           {showCalendar && <HomeScheduler />}
