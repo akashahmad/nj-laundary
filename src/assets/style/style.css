@@ -452,6 +452,11 @@ tbody {
 .fc .fc-button:disabled {
   opacity: 0.9 !important;
 }
+.fc-timegrid-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Mobile nav */
 .mobile-nav {
   width: 100%;
