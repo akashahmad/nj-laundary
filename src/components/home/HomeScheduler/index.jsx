@@ -4,36 +4,38 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 
 const HomeScheduler = () => {
   // const events = [{ title: "today's event", date: new Date() }];
-  const events = { events: [
-    {
-      id: 0,
-      title: "Check-Out",
-      start: "2022-03-31T22:00:00.000Z",
-      end: "2022-03-31T22:00:00.000Z",
-      type: "Chapter Technical Training",
-      url: "https://www.google.com/",
-      color: "#C0BEFF"
-    },
-    {
-      id: 1,
-      title: "In Progress",
-      start: "2022-03-31T18:00:00.000Z",
-      end: "2022-03-31T18:00:00.000Z",
-      url: "https://www.google.com/",
-      type: "Chapter Technical Training",
-      color: "#FFD66B"
-    },
-    {
-      id:2,
-      title: "Check-In",
-      start: "2022-03-31T16:00:00.000Z",
-      end: "2022-03-31T16:00:00.000Z",
-      url: "https://www.google.com/",
-      type: "Chapter Technical Training",
-      color:"#FF8F6B"
-    }
-  ]
-}
+  const events = {
+    events: [
+      {
+        id: 0,
+        title: "Check-Out",
+        start: new Date("2022-03-31T10:00:00.000Z"),
+        end: new Date("2022-03-31T10:00:00.000Z"),
+        type: "Chapter Technical Training",
+        url: "https://www.google.com/",
+        color: "#C0BEFF",
+      },
+      {
+        id: 1,
+        title: "In Progress",
+        start: new Date("2022-03-31T07:00:00.000Z"),
+        end: new Date("2022-03-31T07:00:00.000Z"),
+        url: "https://www.google.com/",
+        type: "Chapter Technical Training",
+        color: "#FFD66B",
+      },
+      {
+        id: 2,
+        title: "Check-In",
+        start: new Date("2022-03-31T04:00:00.000Z"),
+        end: new Date("2022-03-31T04:00:00.000Z"),
+        url: "https://www.google.com/",
+        type: "Chapter Technical Training",
+        color: "#FF8F6B",
+      },
+    ],
+  };
+  console.log(new Date("2022-03-31T22:00:00.000Z"));
   return (
     <FullCalendar
       plugins={[timeGridPlugin]}
